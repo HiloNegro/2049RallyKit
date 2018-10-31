@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8be57ada97c4584f98575a9f1113458, type: 3}
+  m_Name: Insurgentes
+  m_EditorClassIdentifier: 
+  activityName: Insurgentes
+  activityId: 1
+  activityBackground: {fileID: 21300000, guid: e3152d373b08ca7439be0b5b2418f04f, type: 3}
+  activityGif:
+  - {fileID: 21300000, guid: bf8487b4ef49f5b46928a112ec9a3ba7, type: 3}
+  - {fileID: 21300000, guid: 4b5492a493e4f834eb7c1027e539bb75, type: 3}
+  - {fileID: 21300000, guid: e99f1d8645fd610499b1015b3290ede7, type: 3}
+  - {fileID: 21300000, guid: 04f0e609f2e54be42b017a8d961d0234, type: 3}
+  - {fileID: 21300000, guid: 4997cb72690fc6943bdb5c58b07544e7, type: 3}
+  - {fileID: 21300000, guid: d2baa63695d999b42afe3fae2b86a7b9, type: 3}
+  mainClue:
+    clueAudioName: Insurgentes Main
+    infoAudioName: 
+    clueText: "Encuentren la estaci\xF3n de metro donde el capit\xE1n Keller, un gringo
+      repugnante, empez\xF3 el viaje hacia su Fiesta Brava."
+    clueSprites: []
+  intermissionAudios:
+  - Insurgentes Secondary 1
+  - Insurgentes Secondary 2
+  - Insurgentes Secondary 3
+  onLocationArrivalAudio: Insurgentes On Location Arrival
+  secondaryClues:
+  - clueAudioName: Insurgentes Clue 1
+    infoAudioName: Insurgentes Info 1
+    clueText: Mini pista 1 - Insurgentes
+    clueSprites:
+    - {fileID: 21300000, guid: 4682a440c88655945992523bdf6d7a81, type: 3}
+    - {fileID: 21300000, guid: 6f3e0ddccdbb8354b811d8f7d45ca434, type: 3}
+    - {fileID: 21300000, guid: be39f1dbc81bc1c469a1ae1d9ca43d26, type: 3}
+  - clueAudioName: Insurgentes Clue 2
+    infoAudioName: Insurgentes Info 2
+    clueText: Mini pista 2 - Insurgentes
+    clueSprites:
+    - {fileID: 21300000, guid: 990b38ef4f15f0f4886de46f68e7b4d3, type: 3}
+    - {fileID: 21300000, guid: f431fe62f0fde6e47ae80f7b6494133e, type: 3}
+    - {fileID: 21300000, guid: 196007e8e37327d46bd75a2718856b5c, type: 3}
+  - clueAudioName: Insurgentes Clue 3
+    infoAudioName: Insurgentes Info 3
+    clueText: Mini pista 3 - Insurgentes
+    clueSprites:
+    - {fileID: 21300000, guid: 0e4d703c5840414459c5804f8c2fa538, type: 3}
+    - {fileID: 21300000, guid: e5e393daed084b04abab0f2bd0b8b949, type: 3}
+    - {fileID: 21300000, guid: 60dfc394525293f4eac3e2b2044d1a9d, type: 3}
+  questionText: "\xBFC\xF3mo se imaginan el transporte en el 2049?"
+  futureQrSprite: {fileID: 21300000, guid: acca8bf787670ee488e11839ca49d694, type: 3}
+  onActivityCompletedAudio: Insurgentes Completed
+  distanceToReachTarget: 90
+  locationLatitude: 19.423675
+  locationLongitude: -99.162924
+  futureButtons:
+  - {fileID: 21300000, guid: 68bfc429a37b655469468ce0c00c4451, type: 3}
+  - {fileID: 21300000, guid: d69d54b37060c594f9230d944c7e4afa, type: 3}
+  - {fileID: 21300000, guid: b9c4c5e3c4021dc45adbf4210a0980a6, type: 3}
+  - {fileID: 21300000, guid: ef32158aa29c5a54d93f9fe453d074a2, type: 3}

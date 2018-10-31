@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Seal03" size="1.000000 0.997126" />
+    <ImageTarget name="Seal02" size="1.000000 1.020080" />
+    <ImageTarget name="Seal" size="1.000000 1.001938" />
+  </Tracking>
+</QCARConfig>

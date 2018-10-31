@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8be57ada97c4584f98575a9f1113458, type: 3}
+  m_Name: Tlatelolco
+  m_EditorClassIdentifier: 
+  activityName: Tlatelolco
+  activityId: 2
+  activityBackground: {fileID: 21300000, guid: 9d7fecde4a751814481e7041d204f0e7, type: 3}
+  activityGif:
+  - {fileID: 21300000, guid: e589ac889d24b3a4fa0d2de0b8f7393a, type: 3}
+  - {fileID: 21300000, guid: 86300e224266cca40a46be4cca3c9733, type: 3}
+  - {fileID: 21300000, guid: 9b6c5ad00068851478acd29e7846cf66, type: 3}
+  - {fileID: 21300000, guid: 257f3c4df556bc843a488bbfe171a9f0, type: 3}
+  - {fileID: 21300000, guid: cd03476dae65ec5498e22fb320e90c47, type: 3}
+  - {fileID: 21300000, guid: f15c83b0cf88d864aa841c3d217f058b, type: 3}
+  mainClue:
+    clueAudioName: Tlatelolco Main
+    infoAudioName: 
+    clueText: "Dice nuestra historia: \"Los nahuales, los brujos m\xE1s poderosos,
+      se dieron a la tarea de combatir a los \xE1ngeles invasores\". Vayan a la plaza
+      de la \xFAltima batalla."
+    clueSprites: []
+  intermissionAudios:
+  - Tlatelolco Secondary 1
+  - Tlatelolco Secondary 2
+  - Tlatelolco Secondary 3
+  onLocationArrivalAudio: Tlatelolco On Location Arrival
+  secondaryClues:
+  - clueAudioName: Tlatelolco Clue 1
+    infoAudioName: Tlatelolco Info 1
+    clueText: Mini pista 1 - Tlatelolco
+    clueSprites:
+    - {fileID: 21300000, guid: f7e247c8abde6274987aae63498109c0, type: 3}
+    - {fileID: 21300000, guid: 941e2f0e29cb5cb49b6111ca94fe273a, type: 3}
+  - clueAudioName: Tlatelolco Clue 2
+    infoAudioName: Tlatelolco Info 2
+    clueText: Mini pista 1 - Tlatelolco
+    clueSprites:
+    - {fileID: 21300000, guid: 13bbf3fa0bd875d419ae49cbfc6b8bba, type: 3}
+    - {fileID: 21300000, guid: 7d25b382c6eee1a4786ba564956628d5, type: 3}
+    - {fileID: 21300000, guid: a99c44261e50d43429cc944295dec252, type: 3}
+  - clueAudioName: Tlatelolco Clue 3
+    infoAudioName: Tlatelolco Info 3
+    clueText: Mini pista 1 - Tlatelolco
+    clueSprites:
+    - {fileID: 21300000, guid: 3aef6b21def6f2d4a9467dd945326b96, type: 3}
+    - {fileID: 21300000, guid: c3b5b02fdf064ab4ba77b2a1a4ed704c, type: 3}
+    - {fileID: 21300000, guid: 25cf17459e17c6a48a762ebdb04068be, type: 3}
+    - {fileID: 21300000, guid: 2358a2cbc7bb4794c8a33db25ee66e91, type: 3}
+  questionText: "\xBFC\xF3mo se imaginan sus casas en el 2049?"
+  futureQrSprite: {fileID: 21300000, guid: 8b7d785e3ab427148922ca75140358ac, type: 3}
+  onActivityCompletedAudio: Tlatelolco Completed
+  distanceToReachTarget: 190
+  locationLatitude: 19.450979
+  locationLongitude: -99.137241
+  futureButtons:
+  - {fileID: 21300000, guid: 158cebf44ea37684aa13ecd7a0652978, type: 3}
+  - {fileID: 21300000, guid: 34f3fe83035302f4d829eb39930deb79, type: 3}
+  - {fileID: 21300000, guid: 8affc20853dc165489d0e5949fdc688d, type: 3}
+  - {fileID: 21300000, guid: e41756d683bfa664196295c295c15246, type: 3}

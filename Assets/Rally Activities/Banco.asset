@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8be57ada97c4584f98575a9f1113458, type: 3}
+  m_Name: Banco
+  m_EditorClassIdentifier: 
+  activityName: Banco
+  activityId: 0
+  activityBackground: {fileID: 21300000, guid: 441133c7dea3e814891732c163ef46b9, type: 3}
+  activityGif:
+  - {fileID: 21300000, guid: 5e820451bc466844eb976f2f88394098, type: 3}
+  - {fileID: 21300000, guid: e54e70d1a6ac41848ab802344aeb97cb, type: 3}
+  - {fileID: 21300000, guid: 06a5da03511653a4cb33686e53cd6f6e, type: 3}
+  - {fileID: 21300000, guid: 666d10bb8c91d15418f275fb9d0005d8, type: 3}
+  - {fileID: 21300000, guid: 0cba3639bae541e49a61c8261e8f6aad, type: 3}
+  - {fileID: 21300000, guid: 21898244c11343c4c86e8aa25d822ada, type: 3}
+  - {fileID: 21300000, guid: c25cb6f3329a0ff469b4f784d5aafa0c, type: 3}
+  - {fileID: 21300000, guid: 8dfa57916d77ffc4a833d952ade00cfe, type: 3}
+  - {fileID: 21300000, guid: ac4c5634e5ba52b45a09840d280db6c9, type: 3}
+  mainClue:
+    clueAudioName: Banco Main
+    infoAudioName: 
+    clueText: "Todo empez\xF3 una ma\xF1ana soleada de los a\xF1os cuarenta cuando
+      Roberto de la Cruz, tambi\xE9n conocido como \"el pr\xEDncipe rojo\", pas\xF3
+      cerca del monumento de la Revoluci\xF3n hasta encontrarse frente a un edificio
+      sin terminar. Dir\xEDjanse a ese edificio donde confirm\xF3 que ten\xEDa 5 pesos
+      en la bolsa."
+    clueSprites: []
+  intermissionAudios:
+  - Banco Secondary 1
+  - Banco Secondary 2
+  - Banco Secondary 3
+  onLocationArrivalAudio: Banco On Location Arrival
+  secondaryClues:
+  - clueAudioName: Banco Clue 1
+    infoAudioName: Banco Info 1
+    clueText: Mini pista 1 - Banco
+    clueSprites:
+    - {fileID: 21300000, guid: cdb789fc227d08549ac18d768061ed24, type: 3}
+    - {fileID: 21300000, guid: 63e76ab6706951d4789fb166510d8328, type: 3}
+  - clueAudioName: Banco Clue 2
+    infoAudioName: Banco Info 2
+    clueText: Mini pista 2 - Banco
+    clueSprites:
+    - {fileID: 21300000, guid: 80a9d6052b106684394dd4cbb1536ac0, type: 3}
+    - {fileID: 21300000, guid: 196af6e8e49c1474395af4ed88864df4, type: 3}
+    - {fileID: 21300000, guid: e0171da652f2f86439c2d8e632bb2745, type: 3}
+  - clueAudioName: Banco Clue 3
+    infoAudioName: Banco Info 3
+    clueText: Mini pista 3 - Banco
+    clueSprites:
+    - {fileID: 21300000, guid: 40a7658cb236bb443a6fc8bad102453c, type: 3}
+    - {fileID: 21300000, guid: 2a4471835a62cb349b6929a5b6c57efe, type: 3}
+  questionText: "\xBFC\xF3mo se imaginan el dinero en el 2049?"
+  futureQrSprite: {fileID: 21300000, guid: 2850ee5b9a393ec49917e14370de7708, type: 3}
+  onActivityCompletedAudio: Banco Completed
+  distanceToReachTarget: 70
+  locationLatitude: 19.436051
+  locationLongitude: -99.15008
+  futureButtons:
+  - {fileID: 21300000, guid: 77b916879423e434e82f758688b86c48, type: 3}
+  - {fileID: 21300000, guid: 891c675fde02e844281ad74483556b10, type: 3}
+  - {fileID: 21300000, guid: dca7c0bea4864014c88c5d473212f14c, type: 3}
+  - {fileID: 21300000, guid: a31471b65b355bd4ca6366fd1c133698, type: 3}
